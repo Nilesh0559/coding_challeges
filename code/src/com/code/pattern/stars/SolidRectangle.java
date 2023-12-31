@@ -1,24 +1,20 @@
-package com.code.pattern;
+package com.code.pattern.stars;
 
 /*******************************************************************
 * Author: Nilesh Gajendragadkar
-* Topic : Pattern Printing
-* Half-Pyramid
-* 	*
-*	**
-*	***
-*	****
-*	*****
-*	******
+* Topic : Patten Printing
+* Solid Rectangle
+	* * * * * 
+	* * * * *
+	* * * * *
 *******************************************************************/
 
-public class HalfPyramid {
+public class SolidRectangle {
 
 	public static void main(String[] args) {
-		int rows = 6;
-		for(int i = 1; i <= rows; i++) {
-			for(int j = 1; j <= i; j++)
-				System.out.print("*");
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 5; j++)
+				System.out.print("* ");
 			System.out.println();
 		}
 	}

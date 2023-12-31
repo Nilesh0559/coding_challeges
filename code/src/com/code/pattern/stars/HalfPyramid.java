@@ -1,25 +1,24 @@
-package com.code.pattern;
+package com.code.pattern.stars;
 
 /*******************************************************************
 * Author: Nilesh Gajendragadkar
 * Topic : Pattern Printing
-* Hollow Rectangle
-* 	*****
-*	*   *
+* Half-Pyramid
+* 	*
+*	**
+*	***
+*	****
 *	*****
+*	******
 *******************************************************************/
 
-public class HollowRectangle {
+public class HalfPyramid {
 
 	public static void main(String[] args) {
-		int rows = 3, columns = 5;
+		int rows = 6;
 		for(int i = 1; i <= rows; i++) {
-			for(int j = 1; j <= columns; j++) {
-				if(i == 1 || i == rows || j == 1 || j == columns)
-						System.out.print("*");
-				else
-					System.out.print(" ");
-			}
+			for(int j = 1; j <= i; j++)
+				System.out.print("*");
 			System.out.println();
 		}
 	}

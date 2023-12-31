@@ -1,4 +1,4 @@
-package com.code.pattern;
+package com.code.pattern.stars;
 
 /*******************************************************************
 * Author: Nilesh Gajendragadkar
