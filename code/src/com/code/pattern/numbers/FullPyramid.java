@@ -14,7 +14,7 @@ package com.code.pattern.numbers;
 public class FullPyramid {
 
 	public static void main(String[] args) {
-		int i, j, k, l = 1;
+		int i, j, k;
 		for(j = 1; j <= 5; j++) {
 			for(i = j; i <= 5; i++) 
 				System.out.print("  ");
